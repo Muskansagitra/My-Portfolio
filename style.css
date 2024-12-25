@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", serif;
+background:#ecf0f3;
+color: #ffff;
+padding: 0;
+margin: 0;
+
+}
+.navbar-brand{
+  color:#dd688f;
+
+}
+
+.name{
+    color:#dd688f;
+}
+/* .row{
+  margin-top: 4rem;
+} */
+
+.typed-out{
+    display: flex;
+    overflow: hidden;
+    border-right: .15em solid gray;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      /* typing 2s forwards; */
+    typing 4s steps(30, end)forwards , blink 0.6s step-end infinite;
+    /* typing 1s steps(20, end) forwards,
+      blink .8s infinite; */
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .image{
+    width:85%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    border:none;
+    background:#dd688f;
+    
+  }
+/* .nav-link:active{
+  color: #ff0255;
+} */
+.btn{
+color: #ffff;
+background-color:#dd688f; 
+} 
+.btn:hover{
+  background-color:#f15086;
+  color:#ffff;
+}
+.about{
+  font-size:50px;
+  font-weight: 400;
+}  
+/* .about1{
+  width: 80%;
+} */
+.details{
+  color:#dd688f;
+}
+.education{
+  font-size: 50px;
+  text-align: center;
+  color:black;
+}
+.row-cols-1{
+  margin-top:-30px;
+}
+.card-title{
+  font-size:20px;
+  font-weight: 600;
+}
+.me{
+  color: #dd688f;
+}
+.cards{
+  background: #f9f9f9;
+}
+  .skills{
+text-align: center;
+font-weight: 600;
+background: #f9f9f9;
+
+}
+.tcolor{
+  color:#dd688f;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+
+}
+
+.progress-bar {
+  width: 0%;
+  height: 15px;
+  background-color:hsl(340, 87%, 63%);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 5px;
+}
+.text{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.project-details a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color:#dd688f;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    /* transition: background 0.3s; */
+  }
+.project-details a:hover {
+    background-color: #f15086;
+  }
+  
+.skillpart{
+  background: #f9f9f9;
+  /* margin-top: -15px; */
+}
+.responsiveimg{
+  max-width: 100%;
+  height: auto;
+
+}
+.logcard{
+  height:98%;
+}
+
+.fontsize{
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 25px;
+  
+  margin: 5px;
+}
+.fa-brands{
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+text-align: center;
+}
+
+.fixed-bg {
+  background-image: url('r1.jpg'); /* Replace with your image URL */
+  background-attachment: fixed; /* Fix the background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  height: 40vh; /* Full viewport height */
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 100px;
+}
+
+
+.navbar-brand{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+
+
+
+ .nav-item:not(.active):hover {
+      background-color: #f3adc5;
+      color: #ffff;
+    }
+
+    .nav-item.active {
+      color: white;
+      background-color:#dd688f;
+      border-radius: 5px;
+    }
+
